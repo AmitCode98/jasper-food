@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family:"Primary-fonts" ;
+  src: url(./fonts/bookman-old-style.ttf);
+}
+@font-face {
+  font-family:"Secondary-fonts" ;
+  src: url(./fonts/Monotype-Corsiva.ttf);
+}
+
+/* .custom-container {
+  max-width: 1536px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+} */
