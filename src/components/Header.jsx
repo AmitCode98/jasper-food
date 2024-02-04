@@ -4,6 +4,7 @@ import { IoIosArrowDown } from "react-icons/io";
 import { IoIosMenu } from "react-icons/io";
 import { IoIosClose } from "react-icons/io";
 import { menuItems } from "../constants";
+import { Fade, Turn } from "hamburger-react";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -39,12 +40,13 @@ const Header = () => {
           <NavMenu />
         </div>
         <div className="lg:hidden">
-          {open ? (
-            <IoIosClose onClick={toggleMenu} className="text-3xl" />
-          ) : (
-            <IoIosMenu onClick={toggleMenu} className="text-3xl" />
-          )}
+          <Fade size={24} onToggle={toggleMenu} />
         </div>
+        {/* {open ? (
+          <IoIosClose onClick={toggleMenu} className="text-3xl" />
+        ) : (
+          <IoIosMenu onClick={toggleMenu} className="text-3xl" />
+        )} */}
       </nav>
 
       {/* Mobile screen view */}
