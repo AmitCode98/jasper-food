@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import LogoAndCompanyName from "./LogoAndCompanyName";
 import { IoIosArrowDown } from "react-icons/io";
-import { IoIosMenu } from "react-icons/io";
-import { IoIosClose } from "react-icons/io";
 import { menuItems } from "../constants";
 import { Fade, Turn } from "hamburger-react";
 
@@ -21,7 +19,7 @@ const Header = () => {
             key={href}
             className="hover:text-primaryColor flex items-center gap-[2px]"
           >
-            <a href={href}>{name}</a>
+            <a href={href} className="font-primary">{name}</a>
             {hasDropdown && <IoIosArrowDown className="text-black" />}
           </li>
         ))}

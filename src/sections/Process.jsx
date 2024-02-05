@@ -3,9 +3,9 @@ import { processStep } from "../constants";
 
 const Process = () => {
   return (
-    <section className="w-full  bg-blue-40">
+    <section className="w-full">
       <div className="container flex flex-col space-y-[40px] md:space-y-[64px]">
-        <h1 className="font-primary font-light text-[32px] lg:text-[48px] text-grayText capitalize text-center">
+        <h1 className="font-primary font-light text-[32px] lg:text-[48px] text-grayText capitalize text-center ">
           Process & Infrastructure
         </h1>
 
