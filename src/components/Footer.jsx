@@ -5,22 +5,22 @@ const Footer = () => {
   return (
     <footer className="py-16">
       <div className="container w-full h-[1.5px] bg-primaryColor"></div>
-      <div className="py-5 container flex justify-center items-center gap-16">
+      <div className="py-5 container flex justify-between items-center gap-16">
         <img src={logo} alt="logo" className="w-20 md:w-24" />
-        <ul className="flex flex-wrap gap-3 text-end font-primary text-grayText">
-          <li>
+        <ul className="flex flex-wrap gap-3 text-end font-primary text-grayText capitalize ">
+          <li className="hover:text-primaryColor">
             <a href="#">Home</a>
           </li>
-          <li>
+          <li className="hover:text-primaryColor">
             <a href="#">About Us</a>
           </li>
-          <li>
+          <li className="hover:text-primaryColor">
             <a href="#">Food safty & qulity</a>
           </li>
-          <li>
+          <li className="hover:text-primaryColor">
             <a href="#">products</a>
           </li>
-          <li>
+          <li className="hover:text-primaryColor">
             <a href="#">contact us</a>
           </li>
         </ul>
