@@ -1,7 +1,7 @@
 import React from "react";
 import HeroBgImg from "../assets/images/hero-bg.webp";
 import Button from "../components/Button";
-import LazyLoad from "react-lazy-load";
+// import LazyLoad from "react-lazy-load";
 
 const Hero = () => {
   return (
