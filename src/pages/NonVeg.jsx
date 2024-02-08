@@ -14,7 +14,7 @@ const NonVeg = () => {
 
   return (
     <section className="w-full ">
-      <Banner bannerText="veg" bgImage={NonVegBannerBgImg} />
+      <Banner bannerText="non veg" bgImage={NonVegBannerBgImg} />
       <div className="container grid md:grid-cols-2 lg:grid-cols-3 gap-5 py-[60px]">
         {vegItems.map((item, index) => (
           <div className="" key={index}>

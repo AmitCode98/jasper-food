@@ -12,7 +12,7 @@ const RoundedButton = ({ text, href, label }) => {
     >
       <a
         href={href}
-        className="capitalize py-3 px-6 md:py-4 md:px-8 lg:py-5 lg:px-14 text-grayText hover:text-white font-primary text-base md:text-xl font-semibold tracking-[0.5px] leading-[23.48px]"
+        className="capitalize py-3 px-4 md:py-4 md:px-8 lg:py-5 lg:px-14 text-grayText hover:text-white font-primary text-base md:text-xl font-semibold tracking-[0.5px] leading-[23.48px]"
         aria-label={label}
       >
         {text}

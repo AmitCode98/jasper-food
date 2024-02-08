@@ -19,6 +19,13 @@ import OurInnovationIcon from '../assets/icons/our-innovation.svg'
 import OurReachIcon from '../assets/icons/our-reach.svg'
 import OurSourchingIcon from '../assets/icons/our-sourcing.svg'
 
+import RawMaterialIcon from "../assets/icons/rawMaterial-icon.svg";
+import HygieneIcon from '../assets/icons/hygiene-icon.svg';
+import WaterIcon from '../assets/icons/water-icon.svg';
+import MaintenanceIcon from '../assets/icons/maintenance-icon.svg';
+import PreventionIcon from '../assets/icons/prevention-icon.svg';
+import PestPreventionIcon from '../assets/icons/pestPrevention-icon.svg'
+
 
 // Define the menu items with their names, hrefs, and dropdown flags
 export const menuItems = [
@@ -112,4 +119,32 @@ export const whyUsData = [
   {
     icon: OurSourchingIcon, title: "our sourcing", description: "We take great care in sourcing our ingredients. Our partnerships with approved suppliers and rigorous quality control measures ensure that only the finest, safest, and healthiest ingredients make it into our products. You can trust the quality of what we serve."
   }
+]
+
+export const FoodSafetyAndQualityLinks = [
+  {
+    text: "Certifications",
+    href: "/Certifications",
+    label: "Learn more about Certifications",
+  },
+  {
+    text: "Quality Assurance",
+    href: "/Quality Assurance",
+    label: "Explore Quality Assurance",
+  },
+];
+
+export const QualityAssuranceData = [
+  { icon: RawMaterialIcon, title: "raw material", description: "Starting at level zero, we procure raw meat only from approved suppliers, such as Jasper Associates, Suguna Foods, and Shanthi Foods. Along with every supply, the suppliers provide a health certificate, declaring that the meat is free from antibiotics and diseases, and is absolutely fit for human consumption. Our core raw materials, including Paneer, Butter, and Cheese, are purchased from Gayatri Foods." },
+
+  { icon: HygieneIcon, title: "hygiene", description: "We have developed detailed systems to manage all stages of equipment, drain, and tool cleaning. The use of protective gear is mandatory, and we strictly follow procedures to ensure that our workers maintain good personal hygiene practices." },
+
+  { icon: WaterIcon, title: "water", description: "We have implemented a RO system to guarantee that the water and ice used in our products are free from any form of contamination. The effectiveness of the RO system is evaluated on a daily basis. Furthermore, the water pipelines are clearly identified." },
+
+  { icon: MaintenanceIcon, title: "maintenance", description: "We have a highly skilled and trained maintenance team available at the plant at all times, ensuring rigorous adherence to our system of preventive maintenance. Additionally, for our machines, we have established Annual Maintenance Contract (AMC) agreements with reputable companies." },
+
+  { icon: PreventionIcon, title: "prevention of contamination", description: "We have implemented a comprehensive waste management procedure that categorizes waste into various categories, such as biodegradable, non-biodegradable, metal scraps, and used lab media. To prevent cross-contamination, physical segregation has been established, distinguishing between high-care and low-care areas." },
+
+  { icon: PestPreventionIcon, title: "pest prevention", description: "We outsource a daily inspection of pest activity inside and outside the plant to ensure a proactive approach to pest control. In addition, we conduct a comprehensive quarterly audit and trend analysis in collaboration with our pest control team to drive continual improvement." },
+
 ]

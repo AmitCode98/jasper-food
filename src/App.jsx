@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import AboutUs from "./pages/AboutUs";
 import Veg from "./pages/Veg";
 import NonVeg from "./pages/NonVeg";
+import FoodSafetyAndQuality from "./pages/FoodSafetyAndQuality";
 
 
 
@@ -16,7 +17,8 @@ const App = () => {
       {/* <Landing /> */}
       {/* <AboutUs/> */}
       {/* <Veg/> */}
-      <NonVeg/>
+      {/* <NonVeg/> */}
+      <FoodSafetyAndQuality/>
       <Footer/>
     </>
   );

@@ -12,7 +12,7 @@ const AboutUs = () => {
     <section className="w-full">
       <Banner bannerText="about us" bgImage={AboutUsBgImg} />
 
-      <div className="container flex justify-center py-10 md:py-14 lg:py-16 gap-4 md:gap-8 lg:gap-10 overflow-hidden bg-red-40">
+      <div className="container flex justify-center py-10 md:py-14 lg:py-16 gap-4 md:gap-8 lg:gap-10 overflow-hidden">
         {aboutUsLinks.map((link, index) => (
           <RoundedButton
             key={index}
