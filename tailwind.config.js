@@ -11,7 +11,7 @@ export default {
       padding: {
         DEFAULT: '1rem',
         sm: '2rem',
-        
+
         '2xl': '6rem',
       },
     },
@@ -27,6 +27,10 @@ export default {
         'primary': ['Primary-fonts', 'sans-serif'],
         'secondary': ['Secondary-fonts', 'sans-serif'],
       },
+      // Box Shadow
+      boxShadow: {
+        custom: '0px 15px 20px rgba(255, 141, 0, 1)'
+      }
     },
   },
   plugins: [],
