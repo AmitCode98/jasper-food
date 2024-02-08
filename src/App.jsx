@@ -6,6 +6,7 @@ import AboutUs from "./pages/AboutUs";
 import Veg from "./pages/Veg";
 import NonVeg from "./pages/NonVeg";
 import FoodSafetyAndQuality from "./pages/FoodSafetyAndQuality";
+import ContactUs from "./pages/ContactUs";
 
 
 
@@ -18,7 +19,8 @@ const App = () => {
       {/* <AboutUs/> */}
       {/* <Veg/> */}
       {/* <NonVeg/> */}
-      <FoodSafetyAndQuality/>
+      {/* <FoodSafetyAndQuality/> */}
+      <ContactUs/>
       <Footer/>
     </>
   );

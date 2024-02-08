@@ -10,7 +10,7 @@ const Social = () => {
         </h1>
 
         {/* social media icon */}
-        <ul className="bg-red-40 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 font-primary text-base leading-8 text-center capitalize gap-12 text-grayText container">
+        <ul className="bg-red-40 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 font-primary text-base leading-8 text-center capitalize gap-12 text-grayText container ">
           {socialMedia.map((item, index) => (
             <li
             className=""
